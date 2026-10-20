@@ -1,0 +1,30 @@
+
+:root{--usyd-ochre:#E64626;--usyd-black:#0A0A0A;--usyd-charcoal:#424242;--usyd-grey:#F1F1F1;--usyd-white:#FFFFFF;--usyd-darkochre:#AC2E12;--usyd-ivory:#F8EFDD;--ink:#242424;--muted:#515151;--border:#DADADA;--navy:#0A0A0A;--teal:#AC2E12;--light:#F7F7F7;--white:#fff}
+*{box-sizing:border-box}body{margin:0;background:var(--usyd-grey);color:var(--usyd-black);font:16px/1.6 system-ui,-apple-system,'Segoe UI',Arial,sans-serif}
+header{background:#0A0A0A!important;color:white!important;border-top:8px solid #E64626!important;}
+header .eyebrow,header [style*="letter-spacing"]{color:#FFC1AC!important}
+header p{color:#f0f0f0!important}header a{color:#fff!important}
+h1,h2,h3{color:#191919}header h1{color:#fff!important}
+a{color:#8F230C;text-decoration:underline;text-underline-offset:2px}a:hover{color:#5b1304}
+a:focus-visible,button:focus-visible,summary:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #E64626;outline-offset:3px}
+.wrap,main{max-width:1150px}
+.card,.practice,.panel-card{background:white!important;border:1px solid #dedede!important;box-shadow:0 6px 22px rgba(0,0,0,.045)!important}
+.tab{border-color:#bbb!important;color:#222!important;background:#fff!important}
+.tab[aria-selected="true"],button.tab.active{background:#0A0A0A!important;color:#fff!important;border-color:#0A0A0A!important;box-shadow:inset 0 -4px 0 #E64626!important}
+.btn.primary,button.action,a.go,.button.primary{background:#E64626!important;color:#0A0A0A!important;border-color:#E64626!important;font-weight:800!important;text-decoration:none}
+.btn.primary:hover,button.action:hover,a.go:hover{background:#f47b59!important;filter:none!important}
+.control output,.h-item output{color:#242424!important;background:#FFF0E9!important}
+.control input[type=range],.h-item input{accent-color:#E64626!important}
+.readout,.formula{background:#FFF5EF!important;border-left:4px solid #E64626!important;color:#292929!important}
+.practice summary,details summary{color:#75200D!important}
+th{background:#F8EFDD!important;color:#171717!important}
+footer,.foot,.smallnote{color:#515151}
+.note{padding:13px 17px;background:#FFF6F2;border-left:4px solid #E64626;border-radius:4px}
+.usyd-mark{font-weight:850;letter-spacing:.045em;color:#fff;text-transform:uppercase;font-size:12px}
+.usyd-mark:before{content:'';display:inline-block;width:11px;height:11px;background:#E64626;margin-right:9px;vertical-align:baseline}
+.usyd-nav{padding:12px 20px;text-align:center;background:white!important;border-bottom:1px solid #dfdfdf;color:#424242!important}
+.usyd-nav a{color:#802309!important}
+.usyd-chips{display:flex;gap:10px;flex-wrap:wrap}.usyd-chips a{padding:8px 12px;border:1px solid #ddd;border-radius:8px;background:#fff;text-decoration:none;color:#802309;font-weight:700}
+.usyd-chip{display:inline-block;padding:4px 9px;background:#F8EFDD;border:1px solid #E5B6A4;color:#60210d;border-radius:5px;font-weight:800;font-size:12px;letter-spacing:.02em}
+.usyd-footer{margin-top:35px;border-top:2px solid #E64626;padding:17px 0;color:#555;font-size:13px}
+@media print{header{background:white!important;color:black!important;border-top:4px solid #E64626!important}header h1{color:black!important}}

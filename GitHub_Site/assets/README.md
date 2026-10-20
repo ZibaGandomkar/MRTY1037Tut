@@ -1,0 +1,1 @@
+All PNGs in this folder are synthetically generated for MRTY1037 teaching. Image dimensions are in the filenames. The diagrams FFT_visual_guide.png and Worked_pixel_size_guide.png are for interpretation; they are not clinical images. The FFT browser widget uses its own computed transforms.
